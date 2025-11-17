@@ -5,7 +5,7 @@ function Habanero() {
   return (
     <>
     
-<Form  />
+
     <section className='flex flex-col items-center gap-3 w-full z-0'>
    
         <h2 className='m-6'>HABANERO</h2>

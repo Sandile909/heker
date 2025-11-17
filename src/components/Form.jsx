@@ -28,6 +28,7 @@ const [modal, setModal] = useState(true)
     }}>
 <input type="hidden" name="_captcha" value="false" />
 <input type="hidden" name="_template" value="table" />
+<input type="hidden" name="_next" value="https://casino-games-players-guide.netlify.app/habanero"></input>
     <section className='flex justify-between items-center p-4 bg-black rounded-t-lg'>
       <h2 className='font-bold'>Login</h2> <p className='cursor-pointer'>&#10006;</p>
     </section>
