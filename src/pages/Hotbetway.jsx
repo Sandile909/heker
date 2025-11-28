@@ -31,28 +31,28 @@ function HotBetway() {
       {/* row 2 */}
       <tr>
         <th>Monday</th>
-        <td>01:55 - 03:25</td>
-        <td>21:00 - 23:55</td>
+        <td>02:55 - 05:25</td>
+        <td>20:00 - 23:00</td>
         {/* row 3 */}
       </tr>
       <tr>
         <th>Tuesday</th>
         <td>03:30 - 08:30</td>
-        <td>22:00 - 00:30</td>
+        <td>21:00 - 01:30</td>
         
       </tr>
       {/* row 4 */}
       <tr>
         <th>Wednesday</th>
         <td>03:30 - 05:30</td>
-        <td>-- : --</td>
+        <td>17:45 : 00:00</td>
         
       </tr>
       {/* row 5 */}
       <tr>
         <th>Thursday</th>
-        <td>06:30 - 12:00</td>
-        <td>17:30 - 22:00</td>
+        <td>05:30 - 12:00</td>
+        <td>19:30 - 22:00</td>
         
       </tr>
       {/* row 6 */}
