@@ -40,26 +40,22 @@ useEffect(() => {
         </div>
 
     {/** NAV BAR */}
-        <NavLink to={"/habanero"}>
-        <button className='cursor-pointer'>Habanero</button>
+        <NavLink to={"/strike-frenzy"}>
+        <button className='cursor-pointer'>Strike Frenzy</button>
         </NavLink>
 
-        <NavLink to={"/betway"}>
-        <button className='cursor-pointer'>Betway</button>
+        <NavLink to={"/hot-betway"}>
+        <button className='cursor-pointer'>Hot Hot Betway</button>
         </NavLink>
 
-        <NavLink to={"/evolution"}>
-         <button className='cursor-pointer'>Evolution</button>
+        <NavLink to={"/hothotfruits"}>
+         <button className='cursor-pointer'>Hot Hot Fruits</button>
          </NavLink>
 
-        <NavLink to={"/red-tiger"}>
-        <button className='cursor-pointer'>Red Tiger</button>
+        <NavLink to={"/wealthin"}>
+        <button className='cursor-pointer'>Wealth In</button>
         </NavLink>
 
-        <NavLink to={"/pragmatic-play"}>
-        <button className='cursor-pointer'>Pramatic Play</button>
-        </NavLink>
-   
    
   </div>
 

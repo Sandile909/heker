@@ -1,14 +1,13 @@
 import React from 'react'
-import Form from '../components/Form'
 
-function Habanero() {
+function StrikeFrenzy() {
   return (
     <>
     
 
     <section className='flex flex-col items-center gap-3 w-full z-0'>
    
-        <h2 className='m-6'>Hot Hot fruits</h2>
+        <h2 className='m-6'>Strike Frenzy</h2>
 
         <div className="overflow-x-auto">
   <table className="table w-full z-5">
@@ -25,20 +24,20 @@ function Habanero() {
       {/* row 1 */}
       <tr>
         <th>Sunday</th>
-        <td>08:30 - 12:45</td>
-        <td>19:15 - 23:30</td>
+        <td>05:30 - 10:45</td>
+        <td>20:15 - 04:30</td>
         
       </tr>
       {/* row 2 */}
       <tr>
         <th>Monday</th>
-        <td>01:55 - 03:25</td>
+        <td>02:00 - 03:25</td>
         <td>21:00 - 23:55</td>
         {/* row 3 */}
       </tr>
       <tr>
         <th>Tuesday</th>
-        <td>03:30 - 08:30</td>
+        <td>01:30 - 08:30</td>
         <td>22:00 - 00:30</td>
         
       </tr>
@@ -66,7 +65,7 @@ function Habanero() {
       {/* row 7 */}
       <tr>
         <th>Saturday</th>
-        <td>-- : --</td>
+        <td>09:00 : 15:00</td>
         <td>-- : --</td>
         
       </tr>
@@ -79,4 +78,4 @@ function Habanero() {
   )
 }
 
-export default Habanero
+export default StrikeFrenzy

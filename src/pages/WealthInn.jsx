@@ -1,14 +1,13 @@
 import React from 'react'
-import Form from '../components/Form'
 
-function Habanero() {
+function WealthInn() {
   return (
     <>
     
 
     <section className='flex flex-col items-center gap-3 w-full z-0'>
    
-        <h2 className='m-6'>Hot Hot fruits</h2>
+        <h2 className='m-6'>Wealth In</h2>
 
         <div className="overflow-x-auto">
   <table className="table w-full z-5">
@@ -25,7 +24,7 @@ function Habanero() {
       {/* row 1 */}
       <tr>
         <th>Sunday</th>
-        <td>08:30 - 12:45</td>
+        <td>09:30 - 12:45</td>
         <td>19:15 - 23:30</td>
         
       </tr>
@@ -33,12 +32,12 @@ function Habanero() {
       <tr>
         <th>Monday</th>
         <td>01:55 - 03:25</td>
-        <td>21:00 - 23:55</td>
+        <td>23:00 - 03:55</td>
         {/* row 3 */}
       </tr>
       <tr>
         <th>Tuesday</th>
-        <td>03:30 - 08:30</td>
+        <td>05:30 - 10:30</td>
         <td>22:00 - 00:30</td>
         
       </tr>
@@ -67,7 +66,7 @@ function Habanero() {
       <tr>
         <th>Saturday</th>
         <td>-- : --</td>
-        <td>-- : --</td>
+        <td>23:45 : 01:15</td>
         
       </tr>
       
@@ -79,4 +78,4 @@ function Habanero() {
   )
 }
 
-export default Habanero
+export default WealthInn
