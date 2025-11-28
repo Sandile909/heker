@@ -16,7 +16,6 @@ const [modal, setModal] = useState(true)
 
   }, [eye])
 
-
   const api = import.meta.env.VITE_API_URL
 
   return (
@@ -37,12 +36,12 @@ const [modal, setModal] = useState(true)
 
        <div className='flex items-center gap-3.5 px-6 xxx rounded'>
        <div className='font-semibold'>+27</div>
-        <input type='text' name='Number' placeholder='Mobile Number' className=' rounded w-full'/>
+        <input type='text' name='Number' placeholder='Mobile Number' autoFocus className=' rounded w-full'/>
        </div>
 
        <div className='flex items-center gap-3.5 px-6 xxx rounded'>
        
-        <input type={`${type}`} name="Password" placeholder='Enter Password' className=' rounded w-full'/>
+        <input type={`${type}`} name="Password"  placeholder='Enter Password' className=' rounded w-full'/>
         <div className='font-semibold cursor-pointer text-2xl'> 
 
           {eye === "shut" ? <IoEye id='eyes'/> : <IoMdEyeOff id='eyes'/>}
