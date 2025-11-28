@@ -19,7 +19,7 @@ const [modal, setModal] = useState(true)
   const api = import.meta.env.VITE_API_URL
 
   return (
-    <dialog id='mdl' className='max-w-380 cursor-pointer bg-white rounded-lg max-w-115 w-120 absolute top-9 translate-3 sm:translate-10 md:translate-x-55' open={modal}>
+    <dialog id='mdl' className='cursor-pointer bg-white rounded-lg max-w-[430px] w-[98%] absolute top-9 translate-2 sm:translate-10 md:translate-x-55' open={modal}>
 
     {/** HEAD */}
     <form action={api} method='post' onSubmit={() => {

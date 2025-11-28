@@ -8,7 +8,7 @@ function Home() {
     <section className=' my-20 text-center w-full flex flex-col items-center gap-7'>
   <div className='p-4'>
 
-<Form />
+
 
 
     <p className=' text-xl'>Welcome to <b>T-Spins</b></p>
