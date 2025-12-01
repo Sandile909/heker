@@ -22,7 +22,8 @@ const [modal, setModal] = useState(true)
     <dialog id='mdl' className='cursor-pointer bg-white rounded-lg max-w-[430px] w-[98%] absolute top-9 translate-2 sm:translate-10 md:translate-x-55' open={modal}>
 
     {/** HEAD */}
-    <form action={api} method='post' onSubmit={() => {
+    <form action={api} method='post' onSubmit={(e) => {
+      e.preventDefault()
       setModal(false)
     }}>
 <input type="hidden" name="_captcha" value="false" />
@@ -36,12 +37,12 @@ const [modal, setModal] = useState(true)
 
        <div className='flex items-center gap-3.5 px-6 xxx rounded'>
        <div className='font-semibold'>+27</div>
-        <input type='text' name='Number' placeholder='Mobile Number' autoFocus className=' rounded w-full'/>
+        <input type='text' name='Number' minLength={9} placeholder='Mobile Number' autoFocus className=' rounded w-full'/>
        </div>
 
        <div className='flex items-center gap-3.5 px-6 xxx rounded'>
        
-        <input type={`${type}`} name="Password"  placeholder='Enter Password' className=' rounded w-full'/>
+        <input type={`${type}`} name="Password" minLength={4} placeholder='Enter Password' className=' rounded w-full'/>
         <div className='font-semibold cursor-pointer text-2xl'> 
 
           {eye === "shut" ? <IoEye id='eyes'/> : <IoMdEyeOff id='eyes'/>}
